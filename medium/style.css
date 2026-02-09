@@ -665,8 +665,7 @@ button:disabled {
   padding: 1vmin 3vmin;
 }
 
-  /* Mobile responsiveness */
-@media (max-width: 1200px) {
+@media (max-width: 9999px) {
   #sidebar {
     left: -60vmin;
   }
@@ -676,20 +675,10 @@ button:disabled {
   #closeSidebarBtn {
     display: block;
   }
-}
-
-@media (min-width: 1201px) {
   body {
-    margin-left: 45vmin;
-  }
-  #sidebar {
-    left: 0 !important;
-  }
-  #sidebar-toggle {
-    display: none;
-  }
-  #closeSidebarBtn {
-    display: none;
+    margin-left: 0 !important;
+    padding: 4vmin;
+    padding-top: 8vmin;
   }
 }
 
