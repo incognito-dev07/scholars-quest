@@ -27,12 +27,12 @@ function createButton(text, handler) {
 
 //SIDEBAR FUNCTIONS
 function openSidebar() {
-  document.getElementById("sidebar").style.left = "0px";
+  document.getElementById("sidebar").style.left = "0";
 }
 function closeSidebar() {
   const sidebar = document.getElementById("sidebar");
   if (sidebar) {
-    sidebar.style.left = "-240px";
+    sidebar.style.left = "-60vmin";
   }
 }
 function isInQuiz() {
